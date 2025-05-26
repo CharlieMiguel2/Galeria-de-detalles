@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Galería de detalles</title>
+</head>
+
+<body>
+    <header>
+        <div class="search-container">
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar..." id="search-input">
+                <button onclick="performSearch()">Buscar</button>
+                <button onclick="clearSearch()" class="clear-btn">Borrar</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="card">
+            <img class="img" src="img/1.webp" width="200px">
+            <h2 class="title">Buenos Dias</h2>
+            <button class="btn" onclick="buenos()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/2.webp" width="200px">
+            <h2 class="title">Carta #1</h2>
+            <button class="btn" onclick="carta()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/3.webp" width="200px">
+            <h2 class="title">Carta #2</h2>
+            <button class="btn" onclick="carta2()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/4.webp" width="200px">
+            <h2 class="title">Carta #3</h2>
+            <button class="btn" onclick="carta3()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/5.webp" width="200px">
+            <h2 class="title">Corazon #1</h2>
+            <button class="btn" onclick="corazon()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/6.webp" width="200px">
+            <h2 class="title">Corazon #2</h2>
+            <button class="btn" onclick="corazon2()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/7.webp" width="200px">
+            <h2 class="title">Corazon #3</h2>
+            <button class="btn" onclick="corazon3()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/8.webp" width="200px">
+            <h2 class="title">Corazon #4</h2>
+            <button class="btn" onclick="corazon4()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/9.webp" width="200px">
+            <h2 class="title">Corazon #5</h2>
+            <button class="btn" onclick="corazon5()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/10.webp" width="200px">
+            <h2 class="title">Corazon #6</h2>
+            <button class="btn" onclick="corazon6()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/11.webp" width="200px">
+            <h2 class="title">Corazon #7</h2>
+            <button class="btn" onclick="corazon7()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/12.webp" width="200px">
+            <h2 class="title">Corazon #8</h2>
+            <button class="btn" onclick="corazon8()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/13.webp" width="200px">
+            <h2 class="title">Corazon #9</h2>
+            <button class="btn" onclick="corazon9()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/14.webp" width="200px">
+            <h2 class="title">Corazon #10</h2>
+            <button class="btn" onclick="corazon10()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/15.webp" width="200px">
+            <h2 class="title">Mariposas</h2>
+            <button class="btn" onclick="mariposas()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/16.webp" width="200px">
+            <h2 class="title">Nube</h2>
+            <button class="btn" onclick="nube()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/17.webp" width="200px">
+            <h2 class="title">Peces</h2>
+            <button class="btn" onclick="peces()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/18.webp" width="200px">
+            <h2 class="title">Flores #1</h2>
+            <button class="btn" onclick="flores()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/19.webp" width="200px">
+            <h2 class="title">Flores #2</h2>
+            <button class="btn" onclick="flores2()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/20.webp" width="200px">
+            <h2 class="title">Flores #3</h2>
+            <button class="btn" onclick="flores3()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/21.webp" width="200px">
+            <h2 class="title">Galeria de fotos</h2>
+            <button class="btn" onclick="galeria()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/22.webp" width="200px">
+            <h2 class="title">Te amo</h2>
+            <button class="btn" onclick="love()">Visitar</button>
+        </div>
+
+        <div class="card">
+            <img class="img" src="img/23.webp" width="200px">
+            <h2 class="title">Me quieres?</h2>
+            <button class="btn" onclick="quieres()">Visitar</button>
+        </div>
+
+                <div class="card">
+            <img class="img" src="img/24.webp" width="200px">
+            <h2 class="title">Flores amarillas</h2>
+            <button class="btn" onclick="amarillas()">Visitar</button>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="js/redirect.js"></script>
+</body>
+
+</html>
